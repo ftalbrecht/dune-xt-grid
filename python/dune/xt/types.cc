@@ -18,8 +18,7 @@
 #include <dune/pybindxi/pybind11.h>
 #include <dune/pybindxi/stl.h>
 
-#include "types.hh"
-
+#include <python/dune/xt/grid/available_types.hh>
 #include <python/dune/xt/grid/grids.bindings.hh>
 
 #include <boost/tuple/tuple.hpp>

@@ -30,7 +30,7 @@ PYBIND11_MODULE(_boundaryinfo, m)
   namespace py = pybind11;
   using namespace pybind11::literals;
 
-  DUNE_XT_GRID_BOUNDARYINFO_BIND(m);
+  //  DUNE_XT_GRID_BOUNDARYINFO_BIND(m);
 }
 
-DUNE_XT_GRID_BOUNDARYINFO_BIND_LIB(template);
+// DUNE_XT_GRID_BOUNDARYINFO_BIND_LIB(template);
