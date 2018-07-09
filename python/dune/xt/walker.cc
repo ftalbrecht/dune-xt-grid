@@ -67,6 +67,6 @@ PYBIND11_MODULE(_walker, m)
 {
   namespace py = pybind11;
   using namespace pybind11::literals;
-  addbind_for_Grid(m);
-  DUNE_XT_GRID_WALKER_APPLYON_BIND(m);
+  //  addbind_for_Grid(m);
+  //  DUNE_XT_GRID_WALKER_APPLYON_BIND(m);
 }

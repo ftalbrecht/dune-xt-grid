@@ -56,5 +56,5 @@ PYBIND11_MODULE(_provider, m)
   namespace py = pybind11;
   using namespace pybind11::literals;
 
-  addbind_for_Grid<Dune::XT::Grid::bindings::AvailableTypes>(m);
+  //  addbind_for_Grid<Dune::XT::Grid::bindings::AvailableTypes>(m);
 }
